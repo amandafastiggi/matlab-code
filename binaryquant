@@ -1,0 +1,8 @@
+%first load an image to the MATLAB workspace 
+%open the jpeg file from folder containg the 'result' files from the
+%binarized ImageJ images. 
+%click and drag jpg files into the 'current folder' section on the
+%left-handed side of the layout. 
+BW=imread("Result of 0036 binary.jpg"); 
+imshow=(BW);
+bwarea(BW); 
